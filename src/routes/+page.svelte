@@ -7,7 +7,7 @@
 
 	onMount(() => {
 		// God awful hack to get around dark reader changing styles at the start. 
-		document.styleSheets[0].insertRule(`body { transition: all 1s ease; }`, 0)
+		document.styleSheets[0].insertRule(`body, html { transition: all 1s ease; }`, 0)
 	})
 
 	

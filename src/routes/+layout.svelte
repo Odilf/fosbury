@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '$lib/fosbury/fosbury.css';
+	import '$lib/fosbury.css';
 </script>
 
 <slot />

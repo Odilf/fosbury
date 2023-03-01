@@ -2,8 +2,12 @@ html, body {
 	height: 100%;
 	min-height: 100vh; /* Fallback */
 	min-height: 100svh;
-
 	margin: 0;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 button {
@@ -30,4 +34,9 @@ p {
 	margin-inline: auto;
 	padding-inline: 0.5rem;
 	padding-bottom: 2rem;
+}
+
+/* I don't know if this even works... */
+body, html {
+	scrollbar-gutter: stable both-edges;
 }

@@ -1,5 +1,5 @@
 <main>	
-	<h1> Documentation </h1>
+	<h1> Custom themes </h1>
 	<p> To be built. </p> 
 	<p class='faint'> (but it's just CSS variables. like you can override them. the "C" in "CSS" stands for "cascading" after all) </p>
 </main>

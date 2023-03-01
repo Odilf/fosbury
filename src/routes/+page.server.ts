@@ -1,10 +1,10 @@
 import type { PageServerLoad } from './$types';
 
-import defaultTheme from '$lib/fosbury/theme/default.css?inline';
-import monochrome from '$lib/fosbury/theme/monochrome.css?inline';
-import nord from '$lib/fosbury/theme/nord.css?inline';
-import pink from '$lib/fosbury/theme/p i n k.css?inline';
-import { highlighter } from '$lib/shiki';
+import defaultTheme from '$lib/theme/default.css?inline';
+import monochrome from '$lib/theme/monochrome.css?inline';
+import nord from '$lib/theme/nord.css?inline';
+import pink from '$lib/theme/p i n k.css?inline';
+import { highlighter } from './shiki';
 
 export const load = (async () => {
     return {
