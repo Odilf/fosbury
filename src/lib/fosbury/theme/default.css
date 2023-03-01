@@ -1,0 +1,44 @@
+:root {
+	/* Colors */
+	--base: hsl(180, 2%, 12%);
+	--base-focus: hsl(180, 2%, 14%);
+	--base-content: hsl(0, 3%, 88%);
+	
+	--primary: hsl(206, 61%, 76%);
+	--primary-focus: hsl(206, 61%, 86%);
+	--primary-content: hsl(264, 100%, 10%);
+
+	--secondary: hsl(206, 61%, 76%);
+	--secondary-focus: hsl(206, 61%, 86%);
+	--secondary-content: hsl(264, 100%, 10%);
+
+	--accent: hsl(49, 100%, 79%);
+	--accent-focus: hsl(49, 100%, 89%);
+	--accent-content: hsl(0, 0%, 10%);
+
+	--warning: hsl(49, 100%, 79%);
+	--warning-content: hsl(0, 0%, 10%);
+
+	--error: hsl(0, 100%, 79%);
+	--error-content: hsl(0, 0%, 10%);
+
+	/* Other stuff */
+	--border-radius: 3px;
+	--max-main-column-width: 720px;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--base: hsl(180, 100%, 98%);
+		--base-focus: hsl(180, 24%, 82%);
+		--base-content: hsl(0, 0%, 10%);
+		
+		--primary: hsl(206, 61%, 76%);
+		--primary-focus: hsl(206, 61%, 86%);
+		--primary-content: hsl(264, 100%, 10%);
+
+		--accent: hsl(48, 100%, 23%);
+		--accent-focus: hsl(49, 100%, 89%);
+		--accent-content: hsl(0, 0%, 10%);
+	}
+}

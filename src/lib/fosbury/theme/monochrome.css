@@ -1,0 +1,26 @@
+:root {
+	--base: #363636;
+	--base-focus: #4f4f4f;
+	--base-content: #e9e9e9;
+
+	--primary: #d4d4d4;
+	--primary-focus: #c1c1c1;
+	--primary-content: #3c3c3c;
+
+	--accent: #afafaf;
+	--accent-focus: #777777;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--base: #eceff4;
+		--base-focus: #d8dee9;
+		--base-content: #2e3440;
+
+		--primary: #5e81ac;
+		--primary-content: #eceff4;
+
+		--accent: #b97b89;
+		--accent-focus: #d8dee9;
+	}
+}

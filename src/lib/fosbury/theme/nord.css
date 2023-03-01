@@ -1,0 +1,26 @@
+:root {
+	--base: #2e3440;
+	--base-focus: #3b4252;
+	--base-content: #d8dee9;
+
+	--primary: #88c0d0;
+	--primary-focus: #81a1c1;
+	--primary-content: #2e3440;
+
+	--accent: #5e81ac;
+	--accent-focus: #59647b;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--base: #eceff4;
+		--base-focus: #d8dee9;
+		--base-content: #2e3440;
+
+		--primary: #5e81ac;
+		--primary-content: #eceff4;
+
+		--accent: #b97b89;
+		--accent-focus: #d8dee9;
+	}
+}

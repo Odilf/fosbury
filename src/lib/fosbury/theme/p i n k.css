@@ -1,0 +1,14 @@
+/* THIS IS A JOKE THEME, PLEASE DON'T ACTUALLY USE */
+
+:root {
+	--base: #f002b0; 
+	--base-focus: #ff00ff;
+	--base-content: #f700ff;
+
+	--primary: #ff00ff;
+	--primary-content: #4c0000;
+
+	--accent: #ff00ff;
+	--accent-focus: #d203d2;
+	--accent-content: #4c0000;
+}
